@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <title>Google walking map</title>
+    <style>
+      html,
+      body,
+      #map {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        background: #f7f7f0;
+        font:
+          14px system-ui,
+          sans-serif;
+        color: #274f3e;
+      }
+      #state {
+        position: absolute;
+        top: 45%;
+        width: 100%;
+        text-align: center;
+        pointer-events: none;
+      }
+      aside {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        display: grid;
+        gap: 2px;
+      }
+      button {
+        border: 1px solid #c9d0c4;
+        background: #fffef9;
+        color: #224536;
+        box-shadow: 0 1px 4px #0002;
+        border-radius: 8px;
+        padding: 9px 10px;
+        min-height: 42px;
+        font: 600 12px system-ui;
+        cursor: pointer;
+      }
+      button[hidden],
+      aside[hidden] {
+        display: none;
+      }
+      #notice {
+        position: absolute;
+        bottom: 30px;
+        left: 8px;
+        max-width: 72%;
+        margin: 0;
+        background: #fffef6ed;
+        border-radius: 5px;
+        padding: 3px 6px;
+        font-size: 12px;
+      }
+      #credit {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        background: #fffdf4ed;
+        padding: 2px 4px;
+        border-radius: 3px;
+        color: #424639;
+        font-size: 9px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map" aria-label="Google walking map"></div>
+    <div id="state" role="status">Loading Google Maps…</div>
+    <a
+      id="credit"
+      href="https://www.openstreetmap.org/copyright"
+      target="_blank"
+      rel="noopener noreferrer"
+      hidden
+      >Walking route © OpenStreetMap contributors</a
+    >
+    <p id="notice" role="status" hidden></p>
+    <aside hidden>
+      <button id="fit" title="Fit route to map">Fit route</button
+      ><button id="locate" title="Center on my location" hidden>
+        My location
+      </button>
+    </aside>
+    <script>
+      "use strict";
+      (() => {
+        let map,
+          routeLayers = [],
+          pins = [],
+          position,
+          circle,
+          scene = null,
+          previousRoute = "",
+          previousLocation = "",
+          startup,
+          bridgeToken = null;
+        const status = document.getElementById("state"),
+          controls = document.querySelector("aside"),
+          credit = document.getElementById("credit");
+        function send(type, detail = {}) {
+          const value = { kind: "roamline-google", type, ...detail };
+          if (bridgeToken) {
+            const bridge =
+              window.webkit?.messageHandlers?.RoamlineGoogleBridge ||
+              window.RoamlineGoogleBridge;
+            if (bridge)
+              bridge.postMessage(
+                JSON.stringify({ ...value, token: bridgeToken }),
+              );
+          } else if (window.parent !== window)
+            window.parent.postMessage(value, window.location.origin);
+        }
+        function fail() {
+          clearTimeout(startup);
+          status.textContent = "Google Maps could not load.";
+          send("error");
+        }
+        window.gm_authFailure = fail;
+        const pt = (p) => ({ lat: p[0], lng: p[1] });
+        function fit() {
+          if (!map || !scene) return;
+          const points = [...scene.route, ...scene.stops.map((s) => s.point)];
+          if (!points.length) {
+            map.setCenter(pt(scene.center));
+            map.setZoom(15);
+            return;
+          }
+          const bounds = new google.maps.LatLngBounds();
+          for (const p of points) bounds.extend(pt(p));
+          if (bounds.getNorthEast().equals(bounds.getSouthWest())) {
+            map.setCenter(pt(points[0]));
+            map.setZoom(17);
+            return;
+          }
+          map.fitBounds(
+            bounds,
+            Math.max(
+              22,
+              Math.min(58, document.documentElement.clientWidth * 0.13),
+            ),
+          );
+        }
+        function dot(point, label, color, title, stop) {
+          const marker = new google.maps.Marker({
+            position: pt(point),
+            map,
+            title,
+            icon: {
+              path: google.maps.SymbolPath.CIRCLE,
+              scale: label ? 11 : 7,
+              fillColor: color,
+              fillOpacity: 1,
+              strokeColor: "#fffdf6",
+              strokeWeight: 2,
+            },
+            label: label
+              ? {
+                  text: label,
+                  color: "white",
+                  fontWeight: "700",
+                  fontSize: "12px",
+                }
+              : undefined,
+            zIndex: stop ? 4 : 3,
+          });
+          marker.addListener("click", () =>
+            send(stop ? "stop" : "point", {
+              id: stop || "",
+              lat: point[0],
+              lon: point[1],
+            }),
+          );
+          return marker;
+        }
+        function draw() {
+          if (!map || !scene) return;
+          const message = document.getElementById("notice");
+          message.textContent = scene.notice || "";
+          message.hidden = !scene.notice;
+          const sig = JSON.stringify([scene.route, scene.stops, scene.center]);
+          if (sig !== previousRoute) {
+            previousRoute = sig;
+            for (const overlay of [...pins, ...routeLayers])
+              overlay.setMap(null);
+            pins = [];
+            routeLayers = [];
+            const path = scene.route.map(pt);
+            if (path.length > 1) {
+              for (const [color, width] of [
+                ["#fffdf4", 8],
+                ["#285b43", 5],
+              ])
+                routeLayers.push(
+                  new google.maps.Polyline({
+                    map,
+                    path,
+                    strokeColor: color,
+                    strokeWeight: width,
+                    strokeOpacity: 1,
+                    clickable: false,
+                  }),
+                );
+            }
+            for (const s of scene.stops)
+              pins.push(
+                dot(s.point, String(s.number), "#37674b", s.name, s.id),
+              );
+            if (path.length) {
+              pins.push(dot(scene.route[0], "A", "#283d31", "Start", null));
+              if (path.length > 1)
+                pins.push(
+                  dot(
+                    scene.route[scene.route.length - 1],
+                    "B",
+                    "#283d31",
+                    "Destination",
+                    null,
+                  ),
+                );
+            }
+            fit();
+          }
+          if (position) {
+            position.setMap(null);
+            position = null;
+          }
+          if (circle) {
+            circle.setMap(null);
+            circle = null;
+          }
+          if (scene.location)
+            position = dot(
+              scene.location,
+              "",
+              "#327fb1",
+              "Current location",
+              null,
+            );
+          if (scene.location && scene.accuracy)
+            circle = new google.maps.Circle({
+              map,
+              center: pt(scene.location),
+              radius: scene.accuracy,
+              strokeWeight: 1,
+              strokeColor: "#347cad",
+              strokeOpacity: 0.6,
+              fillColor: "#4286bb",
+              fillOpacity: 0.12,
+              clickable: false,
+            });
+          const loc = JSON.stringify([scene.location, scene.follow]);
+          if (scene.follow && scene.location && loc !== previousLocation) {
+            map.panTo(pt(scene.location));
+            if (map.getZoom() < 15) map.setZoom(16);
+          }
+          previousLocation = loc;
+          document.getElementById("locate").hidden =
+            !scene.location && !scene.recenter;
+        }
+        window.roamlineScene = (value) => {
+          scene = value;
+          draw();
+        };
+        window.roamlineStart = (key, token) => {
+          bridgeToken = token || null;
+          if (!key || window.roamlineLoading) return;
+          window.roamlineLoading = true;
+          window.roamlineMapsReady = () => {
+            clearTimeout(startup);
+            try {
+              map = new google.maps.Map(document.getElementById("map"), {
+                center: scene
+                  ? pt(scene.center)
+                  : { lat: 41.6984, lng: 44.8025 },
+                zoom: 15,
+                mapTypeId: "roadmap",
+                streetViewControl: false,
+                mapTypeControl: false,
+                fullscreenControl: false,
+                zoomControl: true,
+                clickableIcons: false,
+                gestureHandling: "greedy",
+              });
+              map.addListener("dragstart", () => send("pan"));
+              map.addListener("click", (e) => {
+                if (e.latLng)
+                  send("point", { lat: e.latLng.lat(), lon: e.latLng.lng() });
+              });
+              status.hidden = true;
+              controls.hidden = false;
+              credit.hidden = false;
+              draw();
+              send("ready");
+            } catch (_) {
+              fail();
+            }
+          };
+          startup = setTimeout(fail, 20000);
+          const loader = document.createElement("script");
+          loader.async = true;
+          loader.onerror = fail;
+          const url = new URL("https://maps.googleapis.com/maps/api/js");
+          url.searchParams.set("key", key);
+          url.searchParams.set("v", "quarterly");
+          url.searchParams.set("loading", "async");
+          url.searchParams.set("callback", "roamlineMapsReady");
+          url.searchParams.set("libraries", "marker");
+          loader.src = url.href;
+          document.head.appendChild(loader);
+        };
+        window.addEventListener("message", (event) => {
+          if (
+            event.source !== window.parent ||
+            event.origin !== window.location.origin ||
+            event.data?.kind !== "roamline-google-host"
+          )
+            return;
+          if (event.data.scene) window.roamlineScene(event.data.scene);
+          if (event.data.key) window.roamlineStart(event.data.key);
+        });
+        document.getElementById("fit").onclick = () => {
+          send("pan");
+          fit();
+        };
+        document.getElementById("locate").onclick = () => {
+          send("recenter");
+          if (map && scene?.location) {
+            map.setCenter(pt(scene.location));
+            map.setZoom(Math.max(16, map.getZoom() || 16));
+          }
+        };
+        send("loaded");
+      })();
+    </script>
+  </body>
+</html>

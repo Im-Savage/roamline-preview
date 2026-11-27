@@ -1,0 +1,1399 @@
+{
+  "city": "Tbilisi",
+  "timeZone": "Asia/Tbilisi",
+  "lastChecked": "2026-11-27",
+  "localReview": "pending",
+  "highlights": [
+    {
+      "id": "freedom-square",
+      "name": {
+        "en": "Freedom Square",
+        "ka": "თავისუფლების მოედანი"
+      },
+      "description": {
+        "en": "From the paved edge of the roundabout, look up to the gilded figure of St George. The column is visible from the pavement.",
+        "ka": "მოედნის კიდიდან ახედეთ სვეტზე აღმართულ წმინდა გიორგის მოოქროვილ ფიგურას. მის დასანახად გზის გადაკვეთა საჭირო არ არის."
+      },
+      "lat": 41.69392,
+      "lng": 44.80161,
+      "category": "architecture",
+      "visitMinutes": 3,
+      "passBy": true,
+      "access": "exterior",
+      "sourceUrl": "https://www.openstreetmap.org/way/709370328",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/freedom-square.jpg",
+        "author": "LeontinaVarlamonva",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freedom_Square,_Tbilisi,_Georgia.jpg",
+        "title": "Freedom Square, Tbilisi, Georgia.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "dry-bridge",
+      "name": {
+        "en": "Dry Bridge Market",
+        "ka": "მშრალი ხიდის ბაზრობა"
+      },
+      "description": {
+        "en": "Cross the old stone bridge above the road. When traders set up, look for records, paintings and enamel pins on their tables. Stall hours vary.",
+        "ka": "გაიარეთ გზის თავზე გადებული ძველი ქვის ხიდი. გაშლილ დახლებს შორის შეხვდებით ფირფიტებს, ნახატებსა და სამკერდე ნიშნებს. მოვაჭრეების სამუშაო საათები ცვალებადია."
+      },
+      "lat": 41.70048,
+      "lng": 44.80254,
+      "category": "culture",
+      "visitMinutes": 8,
+      "passBy": false,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/where-to-purchase-georgian-souvenirs-in-tbilisi",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/dry-bridge.jpg",
+        "author": "Alexkom000",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2025-03-30_Dry_Bridge_Market,_Tbilisi_5.jpg",
+        "title": "2025-03-30 Dry Bridge Market, Tbilisi 5.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "national-gallery",
+      "name": {
+        "en": "National Gallery",
+        "ka": "ეროვნული გალერეა"
+      },
+      "description": {
+        "en": "Pause on Rustaveli Avenue for the gallery’s tall arched windows. This short stop is outside. Allow a separate visit for the exhibition halls.",
+        "ka": "რუსთაველის გამზირიდან გალერეის მაღალ თაღოვან სარკმლებს დააკვირდით. ეს მოკლე გაჩერება ფასადის სანახავადაა. საგამოფენო დარბაზებისთვის ცალკე დრო გაითვალისწინეთ."
+      },
+      "lat": 41.69813,
+      "lng": 44.79874,
+      "category": "art",
+      "visitMinutes": 2,
+      "passBy": true,
+      "access": "exterior",
+      "sourceUrl": "https://museum.ge/files/broshurebi/Museum_Broshura_A4_ENG_WEB.pdf",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/national-gallery.jpg",
+        "author": "Kober",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tbilisi_National_Gallery.JPG",
+        "title": "Tbilisi National Gallery.JPG",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "nine-april-garden",
+      "name": {
+        "en": "9 April Garden",
+        "ka": "9 აპრილის ბაღი"
+      },
+      "description": {
+        "en": "Step back from Rustaveli Avenue into the upper part of the old Alexander Garden. Follow the tree-lined paths behind the National Gallery.",
+        "ka": "რუსთაველის გამზირიდან ყოფილი ალექსანდრეს ბაღის ზედა ნაწილში შეუხვიეთ. ეროვნული გალერეის უკან ხეებით დაჩრდილულ ბილიკებს გაჰყევით."
+      },
+      "lat": 41.698365,
+      "lng": 44.79956,
+      "category": "gardens",
+      "visitMinutes": 5,
+      "passBy": false,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/family-attractions/9th-of-april-park",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/nine-april-garden.jpg",
+        "author": "Yasuhiro Kojima",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:9_April_Park,_Tbilisi.jpg",
+        "title": "9 April Park, Tbilisi.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "opera-house",
+      "name": {
+        "en": "Tbilisi Opera House",
+        "ka": "თბილისის ოპერა"
+      },
+      "description": {
+        "en": "See the striped arches and ornamental windows from the Rustaveli Avenue pavement. Entry to a performance requires a separate ticket.",
+        "ka": "რუსთაველის გამზირის ტროტუარიდან კარგად ჩანს ზოლიანი თაღები და მოჩუქურთმებული სარკმლები. სპექტაკლზე დასასწრებად ბილეთია საჭირო."
+      },
+      "lat": 41.70085,
+      "lng": 44.79584,
+      "category": "architecture",
+      "visitMinutes": 2,
+      "passBy": true,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/popular-trips/architectural-tour-of-rustaveli-avenue",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/opera-house.jpg",
+        "author": "Francisco Anzola",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:National_Opera_House._Tbilisi,_Georgia.jpg",
+        "title": "National Opera House. Tbilisi, Georgia.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "rustaveli-theatre",
+      "name": {
+        "en": "Rustaveli Theatre",
+        "ka": "რუსთაველის თეატრი"
+      },
+      "description": {
+        "en": "The theatre’s balcony projects over the pavement on Rustaveli Avenue. Look for carved faces and decorative details above the doorway.",
+        "ka": "თეატრის აივანი რუსთაველის გამზირის ტროტუარს გადმოჰყურებს. შესასვლელის თავზე სკულპტურულ სახეებსა და დეკორს დააკვირდით."
+      },
+      "lat": 41.69952,
+      "lng": 44.79757,
+      "category": "architecture",
+      "visitMinutes": 2,
+      "passBy": true,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/17-shota-rustaveli-avenue",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/rustaveli-theatre.jpg",
+        "author": "DDohler",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rustaveli_National_Theater_in_Georgia_(Europe),_built_19th_century_in_Rococo_style.jpg",
+        "title": "Rustaveli National Theater in Georgia (Europe), built 19th century in Rococo style.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "kashveti",
+      "name": {
+        "en": "Kashveti Church",
+        "ka": "ქაშვეთის ტაძარი"
+      },
+      "description": {
+        "en": "The pale stone church sits just below the level of Rustaveli Avenue. Compare the carved exterior with the buildings opposite. This stop stays outside.",
+        "ka": "ღია ფერის ქვით მოპირკეთებული ტაძარი გამზირის დონიდან ოდნავ ქვემოთ დგას. მისი მოჩუქურთმებული ფასადი ქუჩის მოპირდაპირე მხარეს მდებარე შენობებს შეადარეთ."
+      },
+      "lat": 41.69779,
+      "lng": 44.79914,
+      "category": "architecture",
+      "visitMinutes": 3,
+      "passBy": true,
+      "access": "exterior",
+      "sourceUrl": "https://www.openstreetmap.org/way/65299828",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/kashveti.jpg",
+        "author": "Paata Vardanashvili; derivative image by Rabanus Flavus",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kashveti1-2.jpg",
+        "title": "Kashveti1-2.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "parliament",
+      "name": {
+        "en": "Parliament colonnade",
+        "ka": "პარლამენტის კოლონადა"
+      },
+      "description": {
+        "en": "From the public pavement, look across the frontage of Georgia’s Parliament. The stone arches repeat along the upper storey. Follow any temporary access signs.",
+        "ka": "ტროტუარიდან საქართველოს პარლამენტის ფასადს გახედეთ. ზედა სართულზე ქვის თაღები ერთ მწკრივად გასდევს. გაითვალისწინეთ ადგილზე მოქმედი დროებითი შეზღუდვები."
+      },
+      "lat": 41.69696,
+      "lng": 44.79892,
+      "category": "architecture",
+      "visitMinutes": 2,
+      "passBy": true,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/cities-towns/tbilisi",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/parliament.jpg",
+        "author": "Kober",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parliament_building._Rustaveli_Avenue,_Tbilisi._Georgia%27s_Independence_Day_celebrations_26.05.2017.jpg",
+        "title": "Parliament building. Rustaveli Avenue, Tbilisi. Georgia's Independence Day celebrations 26.05.2017.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "georgian-museum",
+      "name": {
+        "en": "Museum of Georgia",
+        "ka": "საქართველოს მუზეუმი"
+      },
+      "description": {
+        "en": "Look for the stone entrance of the Simon Janashia Museum on Rustaveli Avenue. The walk passes the exterior; tickets and extra time are needed for the collections.",
+        "ka": "რუსთაველის გამზირზე სიმონ ჯანაშიას მუზეუმის ქვის შესასვლელს მიაქციეთ ყურადღება. მარშრუტი ფასადთან გადის. კოლექციების დასათვალიერებლად ბილეთი და დამატებითი დრო დაგჭირდებათ."
+      },
+      "lat": 41.69616,
+      "lng": 44.79996,
+      "category": "culture",
+      "visitMinutes": 2,
+      "passBy": true,
+      "access": "exterior",
+      "sourceUrl": "https://museum.ge/files/broshurebi/Museum_Broshura_A4_ENG_WEB.pdf",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/georgian-museum.jpg",
+        "author": "Julien Pauthier from Bielefeld, Germany",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rustaveli_museum.jpg",
+        "title": "Rustaveli museum.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "pushkin-garden",
+      "name": {
+        "en": "Pushkin Garden",
+        "ka": "პუშკინის სკვერი"
+      },
+      "description": {
+        "en": "A small pocket of trees opens off Freedom Square. Pause on a garden path to look back toward the column above the roundabout.",
+        "ka": "თავისუფლების მოედანს ხეებით დაფარული პატარა სკვერი ესაზღვრება. ბილიკიდან შეგიძლიათ მოედნის თავზე აღმართულ სვეტს გახედოთ."
+      },
+      "lat": 41.69428,
+      "lng": 44.80176,
+      "category": "gardens",
+      "visitMinutes": 4,
+      "passBy": false,
+      "access": "exterior",
+      "sourceUrl": "https://www.openstreetmap.org/way/26399274",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/pushkin-garden.jpg",
+        "author": "Kober",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pushkin_Garden,_Tbilisi.JPG",
+        "title": "Pushkin Garden, Tbilisi.JPG",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "orbeliani-square",
+      "name": {
+        "en": "Orbeliani Square",
+        "ka": "ორბელიანის მოედანი"
+      },
+      "description": {
+        "en": "Walk the edges of this square between the surrounding houses. Look for flowers at the stalls when vendors are there.",
+        "ka": "გაიარეთ საცხოვრებელი სახლების შუაში მოქცეული მოედნის გასწვრივ. როდესაც გამყიდველები ადგილზე არიან, დახლები ყვავილებით ივსება."
+      },
+      "lat": 41.69721,
+      "lng": 44.8031,
+      "category": "culture",
+      "visitMinutes": 4,
+      "passBy": false,
+      "access": "exterior",
+      "sourceUrl": "https://www.openstreetmap.org/way/1476800521",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/orbeliani-square.jpg",
+        "author": "David Osipov",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024-10-05._Tbilisoba_2024._Orbeliani_square_02.jpg",
+        "title": "2024-10-05. Tbilisoba 2024. Orbeliani square 02.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "dedaena-park",
+      "name": {
+        "en": "Dedaena Park",
+        "ka": "დედაენის ბაღი"
+      },
+      "description": {
+        "en": "Look for the paths and open lawns on the river side of the Dry Bridge. The name Dedaena means mother tongue in Georgian.",
+        "ka": "მშრალი ხიდიდან მდინარის მხარეს ბილიკები და გაშლილი გაზონები დაგხვდებათ. ბაღის სახელწოდება მშობლიურ ენას უკავშირდება."
+      },
+      "lat": 41.7006,
+      "lng": 44.80474,
+      "category": "gardens",
+      "visitMinutes": 6,
+      "passBy": false,
+      "access": "exterior",
+      "sourceUrl": "https://www.openstreetmap.org/way/174304310",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/dedaena-park.jpg",
+        "author": "Melberg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deda_Ena_Park.jpg",
+        "title": "Deda Ena Park.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "leonidze-garden",
+      "name": {
+        "en": "Giorgi Leonidze Garden",
+        "ka": "გიორგი ლეონიძის ბაღი"
+      },
+      "description": {
+        "en": "Walk through the lower section of the former Alexander Garden. Its slope connects the streets near Rustaveli with the Dry Bridge area.",
+        "ka": "გაიარეთ ყოფილი ალექსანდრეს ბაღის ქვედა ნაწილი. მისი დაქანებული ბილიკები რუსთაველის მიმდებარე ქუჩებს მშრალი ხიდის უბანთან აკავშირებს."
+      },
+      "lat": 41.6992,
+      "lng": 44.8012,
+      "category": "gardens",
+      "visitMinutes": 5,
+      "passBy": false,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/family-attractions/9th-of-april-park",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/leonidze-garden.jpg",
+        "author": "Kober",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leonidze_Park,_Tbilisi_(A).jpg",
+        "title": "Leonidze Park, Tbilisi (A).jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "gabriadze-clock",
+      "name": {
+        "en": "Gabriadze Clock Tower",
+        "ka": "გაბრიაძის საათის კოშკი"
+      },
+      "description": {
+        "en": "Beside the puppet theatre, a leaning stack of uneven blocks supports an ornate clock. The tower can be seen from Shavteli Street between performances.",
+        "ka": "მარიონეტების თეატრთან ასიმეტრიულად დაწყობილ კოშკზე მორთული საათია. კოშკს შავთელის ქუჩიდან სპექტაკლებს შორისაც დაინახავთ."
+      },
+      "lat": 41.69581,
+      "lng": 44.80645,
+      "category": "art",
+      "visitMinutes": 4,
+      "passBy": false,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/strolling-through-the-old-city-of-tbilisi",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/gabriadze-clock.jpg",
+        "author": "Marcin Konsek",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2014_Tbilisi,_Wie%C5%BCa_zegarowa_(01).jpg",
+        "title": "2014 Tbilisi, Wieża zegarowa (01).jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "anchiskhati",
+      "name": {
+        "en": "Anchiskhati Basilica",
+        "ka": "ანჩისხატის ბაზილიკა"
+      },
+      "description": {
+        "en": "Look down from Shavteli Street toward a low basilica tucked between the surrounding buildings. Worship can affect access to the interior; the walk stays on the street.",
+        "ka": "შავთელის ქუჩიდან მიმდებარე შენობებს შორის მოქცეულ დაბალ ბაზილიკას გახედეთ. შიგნით შესვლა მსახურებაზეა დამოკიდებული. მარშრუტი ქუჩაზე რჩება."
+      },
+      "lat": 41.69553,
+      "lng": 44.80653,
+      "category": "architecture",
+      "visitMinutes": 3,
+      "passBy": true,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/strolling-through-the-old-city-of-tbilisi",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/anchiskhati.jpg",
+        "author": "Gerd Eichmann",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tbilisi-86-Anchiskhati_Basilica-2019-gje.jpg",
+        "title": "Tbilisi-86-Anchiskhati Basilica-2019-gje.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "peace-bridge",
+      "name": {
+        "en": "Bridge of Peace",
+        "ka": "მშვიდობის ხიდი"
+      },
+      "description": {
+        "en": "Halfway across the pedestrian bridge, look through the curved glass canopy toward the Mtkvari and the embankments on either side.",
+        "ka": "საფეხმავლო ხიდის შუაგულიდან მინის მოხრილი გადახურვის მიღმა მტკვარსა და მის ორივე სანაპიროს გახედეთ."
+      },
+      "lat": 41.69298,
+      "lng": 44.80798,
+      "category": "views",
+      "visitMinutes": 4,
+      "passBy": false,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/tbilisi-peace-bridge",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/peace-bridge.jpg",
+        "author": "ako-aleko",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mtkvari_-_panoramio.jpg",
+        "title": "Mtkvari - panoramio.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "rike-park",
+      "name": {
+        "en": "Rike Park",
+        "ka": "რიყის პარკი"
+      },
+      "description": {
+        "en": "Use the paths at the east end of the Bridge of Peace. The open park gives you room to look back across the river at the roofs of Old Tbilisi.",
+        "ka": "მშვიდობის ხიდის აღმოსავლეთ მხარეს პარკის ბილიკებს გაჰყევით. აქედან მდინარის გაღმა ძველი თბილისის სახურავები მოჩანს."
+      },
+      "lat": 41.69271,
+      "lng": 44.80931,
+      "category": "gardens",
+      "visitMinutes": 5,
+      "passBy": false,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/tbilisi-peace-bridge",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/rike-park.jpg",
+        "author": "Marcin Konsek",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2014_Tbilisi,_Park_Rike_(02).jpg",
+        "title": "2014 Tbilisi, Park Rike (02).jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "metekhi-bridge",
+      "name": {
+        "en": "Metekhi Bridge",
+        "ka": "მეტეხის ხიდი"
+      },
+      "description": {
+        "en": "From the bridge pavement, look up at Metekhi Church on the rock above the river and across toward the old city. Traffic uses the centre of the bridge.",
+        "ka": "ტროტუარიდან კლდეზე აღმართულ მეტეხის ტაძარსა და ძველ ქალაქს გახედეთ. ხიდის შუა ნაწილი ავტომობილების სავალ გზას უკავია."
+      },
+      "lat": 41.6903,
+      "lng": 44.8099,
+      "category": "views",
+      "visitMinutes": 3,
+      "passBy": true,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/strolling-through-the-old-city-of-tbilisi",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/metekhi-bridge.jpg",
+        "author": "Kober",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metekhi_bridge.JPG",
+        "title": "Metekhi bridge.JPG",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "metekhi-church",
+      "name": {
+        "en": "Metekhi Church overlook",
+        "ka": "მეტეხის ტაძრის გადასახედი"
+      },
+      "description": {
+        "en": "The approach to the cliffside church opens toward the Mtkvari and the old city. Allow for an uphill approach. Respect signs and services at the church grounds. The grounds have a gate. Check access on arrival; opening hours are unconfirmed.",
+        "ka": "კლდეზე აგებულ ტაძართან მტკვრისა და ძველი ქალაქის ხედი იშლება. ასასვლელი აღმართიანია. გაითვალისწინეთ ადგილზე განთავსებული ნიშნები და ღვთისმსახურების დრო. ტერიტორიას ჭიშკარი აქვს. შესვლის შესაძლებლობა ადგილზე გადაამოწმეთ; სამუშაო საათები დაუდასტურებელია."
+      },
+      "lat": 41.69029,
+      "lng": 44.81098,
+      "category": "views",
+      "visitMinutes": 6,
+      "passBy": false,
+      "access": "gated-grounds",
+      "sourceUrl": "https://georgia.travel/strolling-through-the-old-city-of-tbilisi",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/metekhi-church.jpg",
+        "author": "Alexxx1979",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tbilisi_The_Metekhi_Church_of_Assumption_IMG_8842_1920.jpg",
+        "title": "Tbilisi The Metekhi Church of Assumption IMG 8842 1920.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "gorgasali-statue",
+      "name": {
+        "en": "Vakhtang Gorgasali monument",
+        "ka": "ვახტანგ გორგასლის ძეგლი"
+      },
+      "description": {
+        "en": "The equestrian statue stands above the river beside Metekhi Church. From the approach you can see how its silhouette frames the old town beyond. The grounds have a gate. Check access on arrival; opening hours are unconfirmed.",
+        "ka": "ცხენზე ამხედრებული მეფის ძეგლი მტკვრის თავზე, მეტეხის ტაძართან დგას. მისასვლელიდან ქანდაკების მიღმა ძველი ქალაქიც მოჩანს. ტერიტორიას ჭიშკარი აქვს. შესვლის შესაძლებლობა ადგილზე გადაამოწმეთ; სამუშაო საათები დაუდასტურებელია."
+      },
+      "lat": 41.69031,
+      "lng": 44.81078,
+      "category": "art",
+      "visitMinutes": 3,
+      "passBy": true,
+      "access": "gated-grounds",
+      "sourceUrl": "https://www.openstreetmap.org/way/1062990549",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/gorgasali-statue.jpg",
+        "author": "Abramia Giorgi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue_of_Gorgasali.JPG",
+        "title": "Statue of Gorgasali.JPG",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "meidan",
+      "name": {
+        "en": "Meidan",
+        "ka": "მეიდანი"
+      },
+      "description": {
+        "en": "Follow the square’s edge near the foot of Metekhi Bridge. Balcony houses and the rising streets behind them frame this old meeting place.",
+        "ka": "მეტეხის ხიდის ძირში მოედნის კიდეს გაჰყევით. ძველ თავშეყრის ადგილს აივნიანი სახლები და მათ უკან აღმართული ქუჩები აკრავს."
+      },
+      "lat": 41.68997,
+      "lng": 44.80889,
+      "category": "culture",
+      "visitMinutes": 4,
+      "passBy": false,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/strolling-through-the-old-city-of-tbilisi",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/meidan.jpg",
+        "author": "Jelger Groeneveld",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tbilisi_Old_town_(Vakhtang_Gorgasali_Square).jpg",
+        "title": "Tbilisi Old town (Vakhtang Gorgasali Square).jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "sioni",
+      "name": {
+        "en": "Sioni Cathedral",
+        "ka": "სიონის ტაძარი"
+      },
+      "description": {
+        "en": "From Sioni Street, look up past the courtyard to the dome. Visitors share this area with worshippers. The planned stop is an exterior view.",
+        "ka": "სიონის ქუჩიდან ეზოს მიღმა ტაძრის გუმბათს ახედეთ. აქ დამთვალიერებლებიც მოდიან და მრევლიც. მარშრუტში ტაძრის გარედან ნახვაა გათვალისწინებული."
+      },
+      "lat": 41.69144,
+      "lng": 44.80717,
+      "category": "architecture",
+      "visitMinutes": 4,
+      "passBy": false,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/sioni-cathedral",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/sioni.jpg",
+        "author": "Supanut Arunoprayote",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tbilisi_Sioni_Cathedral_09.23.jpg",
+        "title": "Tbilisi Sioni Cathedral 09.23.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "caravanserai",
+      "name": {
+        "en": "Artsruni Caravanserai",
+        "ka": "არწრუნის ქარვასლა"
+      },
+      "description": {
+        "en": "Look for the old caravanserai on Sioni Street, now home to the Tbilisi History Museum. This exterior stop introduces the trading quarter without an indoor visit.",
+        "ka": "სიონის ქუჩაზე ძველი ქარვასლა მოძებნეთ. აქ დღეს თბილისის ისტორიის მუზეუმია. მარშრუტი ისტორიულ სავაჭრო უბანს შენობის გარედან გაცნობთ."
+      },
+      "lat": 41.691,
+      "lng": 44.80739,
+      "category": "architecture",
+      "visitMinutes": 2,
+      "passBy": true,
+      "access": "exterior",
+      "sourceUrl": "https://museum.ge/files/broshurebi/Museum_Broshura_A4_ENG_WEB.pdf",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/caravanserai.jpg",
+        "author": "Kober",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caravansarai,_Museum_of_the_History_of_Tbilisi,_as_seen_from_the_Right_Embankment_of_the_Kura_River._Tbilisi,_Georgia.jpg",
+        "title": "Caravansarai, Museum of the History of Tbilisi, as seen from the Right Embankment of the Kura River. Tbilisi, Georgia.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "shardeni",
+      "name": {
+        "en": "Shardeni Street",
+        "ka": "შარდენის ქუჩა"
+      },
+      "description": {
+        "en": "Walk the narrow pedestrian lane between Meidan and Sioni Street. Look above the cafés to see balconies and the shape of the old street.",
+        "ka": "გაიარეთ ვიწრო საფეხმავლო ქუჩა მეიდანსა და სიონის ქუჩას შორის. კაფეების ზემოთ ძველი სახლების აივნებს დააკვირდით."
+      },
+      "lat": 41.69046,
+      "lng": 44.80836,
+      "category": "culture",
+      "visitMinutes": 3,
+      "passBy": true,
+      "access": "exterior",
+      "sourceUrl": "https://www.openstreetmap.org/way/77898598",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/shardeni.jpg",
+        "author": "Kober",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chardin_Street,_Tbilisi.JPG",
+        "title": "Chardin Street, Tbilisi.JPG",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "bath-domes",
+      "name": {
+        "en": "Abanotubani bath domes",
+        "ka": "აბანოთუბნის გუმბათები"
+      },
+      "description": {
+        "en": "Walk beside the low brick domes rising above the sulphur baths. The outdoor view needs no booking. Bathing is a separate indoor visit.",
+        "ka": "გაიარეთ გოგირდის აბანოების დაბალი აგურის გუმბათების გვერდით. გარედან სანახავად დაჯავშნა საჭირო არ არის. აბანოში ვიზიტი ცალკე იგეგმება."
+      },
+      "lat": 41.68802,
+      "lng": 44.81061,
+      "category": "views",
+      "visitMinutes": 4,
+      "passBy": false,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/abanotubani-in-tbilisi",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/bath-domes.jpg",
+        "author": "Marcin Konsek",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2014_Tbilisi,_%C5%81a%C5%BAnie_siarkowe_w_Abanotubani_(04).jpg",
+        "title": "2014 Tbilisi, Łaźnie siarkowe w Abanotubani (04).jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "orbeliani-bath",
+      "name": {
+        "en": "Orbeliani Baths",
+        "ka": "ჭრელი აბანო"
+      },
+      "description": {
+        "en": "From the lane, look closely at the blue tiled façade of Chreli Abano. The pointed arch and patterned tiles are the highlight of this exterior stop.",
+        "ka": "ქუჩიდან ჭრელი აბანოს ლურჯი კრამიტით მოპირკეთებულ ფასადს დააკვირდით. განსაკუთრებით საინტერესოა წაწვეტებული თაღი და ფერადი ორნამენტები."
+      },
+      "lat": 41.68754,
+      "lng": 44.8107,
+      "category": "architecture",
+      "visitMinutes": 4,
+      "passBy": false,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/abanotubani-in-tbilisi",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/orbeliani-bath.jpg",
+        "author": "Supanut Arunoprayote",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orbeliani_Baths_20230921.jpg",
+        "title": "Orbeliani Baths 20230921.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "juma-mosque",
+      "name": {
+        "en": "Juma Mosque",
+        "ka": "ჯუმა მეჩეთი"
+      },
+      "description": {
+        "en": "The minaret rises over the lane above the baths. Follow the uphill public street for an exterior view and give people entering for prayer space.",
+        "ka": "აბანოების ზემოთ, ქუჩის თავზე მინარეთი მოჩანს. გარედან სანახავად აღმართს აუყევით და სალოცავად მიმავალ ადამიანებს გზა დაუტოვეთ."
+      },
+      "lat": 41.68717,
+      "lng": 44.8102,
+      "category": "architecture",
+      "visitMinutes": 3,
+      "passBy": true,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/abanotubani-in-tbilisi",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/juma-mosque.jpg",
+        "author": "Reda Kerbush",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Juma_Mosque_of_Tbilisi.jpg",
+        "title": "Juma Mosque of Tbilisi.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "gudiashvili-square",
+      "name": {
+        "en": "Gudiashvili Square",
+        "ka": "გუდიაშვილის მოედანი"
+      },
+      "description": {
+        "en": "Walk around the small square and compare its wooden balconies and painted façades. Residential doors and courtyards along the way are private.",
+        "ka": "მოედანს შემოუყევით და ერთმანეთისგან განსხვავებული ხის აივნები და შეღებილი ფასადები შეათვალიერეთ. საცხოვრებელი სახლების კარები და ეზოები კერძოა."
+      },
+      "lat": 41.69095,
+      "lng": 44.80378,
+      "category": "architecture",
+      "visitMinutes": 5,
+      "passBy": false,
+      "access": "exterior",
+      "sourceUrl": "https://www.openstreetmap.org/way/172908444",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/gudiashvili-square.jpg",
+        "author": "Jelger Groeneveld",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gudiashvili_Square_-_renovated_(2021).jpg",
+        "title": "Gudiashvili Square - renovated (2021).jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "ereklestreet",
+      "name": {
+        "en": "Erekle II Street",
+        "ka": "ერეკლე მეორის ქუჩა"
+      },
+      "description": {
+        "en": "Follow the pedestrian stretch toward Sioni. Narrow shopfronts, balconies and café tables line the old-town street.",
+        "ka": "სიონისკენ მიმავალი საფეხმავლო მონაკვეთი გაიარეთ. ქუჩას პატარა მაღაზიები, აივნები და კაფეების მაგიდები მიუყვება."
+      },
+      "lat": 41.69244,
+      "lng": 44.80676,
+      "category": "culture",
+      "visitMinutes": 3,
+      "passBy": true,
+      "access": "exterior",
+      "sourceUrl": "https://georgia.travel/sioni-cathedral",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "photo": {
+        "asset": "assets/photos/ereklestreet.jpg",
+        "author": "Alix Kroeger from Brussels, Belgium",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedestrian_street,_Tbilisi.jpg",
+        "title": "Pedestrian street, Tbilisi.jpg",
+        "changes": "Resized and compressed to JPEG."
+      }
+    },
+    {
+      "id": "horizons-exhibition",
+      "name": {
+        "en": "Horizons, Walls, Horizons…",
+        "ka": "ჰორიზონტები, კედლები, ჰორიზონტები…"
+      },
+      "description": {
+        "en": "Salome Chigilashvili pairs embroidered textiles with architectural fragments at Bukia Vakhania, 27 Zandukeli Street, second floor. The gallery lists 29 October–6 December 2026, Tuesday–Sunday, 11:00–19:00.",
+        "ka": "სალომე ჩიგილაშვილი ნაქარგ ქსოვილებს არქიტექტურულ ფრაგმენტებს უთავსებს. გალერეა „ბუკია ვახანია“, ზანდუკელის ქ. 27, მეორე სართული. გალერეის მიხედვით გამოფენა იმართება 2026 წლის 29 ოქტომბრიდან 6 დეკემბრის ჩათვლით, სამშაბათიდან კვირამდე, 11:00–19:00."
+      },
+      "lat": 41.7042,
+      "lng": 44.78439,
+      "category": "art",
+      "visitMinutes": 25,
+      "passBy": false,
+      "access": "exhibition",
+      "sourceUrl": "https://www.bukiavakhania.com/en/exhibition/exhibition/list/article/225",
+      "lastChecked": "2026-11-27",
+      "localReview": "pending",
+      "schedule": {
+        "from": "2026-10-29",
+        "through": "2026-12-06",
+        "weekdays": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "openMinutes": 660,
+        "closeMinutes": 1140,
+        "exceptions": [
+          "2026-10-29"
+        ],
+        "sourceUrl": "https://www.bukiavakhania.com/ka/contact",
+        "display": {
+          "en": "29 Oct–6 Dec 2026 · Tue–Sun 11:00–19:00",
+          "ka": "29 ოქტ. – 6 დეკ. 2026 · სამშ.–კვ. 11:00–19:00"
+        }
+      }
+    }
+  ],
+  "segments": [
+    {
+      "id": "shavteli",
+      "name": {
+        "en": "Shavteli and the puppet theatre",
+        "ka": "შავთელის ქუჩა და მარიონეტების თეატრი"
+      },
+      "highlightIds": [
+        "gabriadze-clock",
+        "anchiskhati"
+      ],
+      "coordinates": [
+        [
+          41.696631,
+          44.806436
+        ],
+        [
+          41.696529,
+          44.806461
+        ],
+        [
+          41.696444,
+          44.806491
+        ],
+        [
+          41.696356,
+          44.806497
+        ],
+        [
+          41.69628,
+          44.806494
+        ],
+        [
+          41.696155,
+          44.806486
+        ],
+        [
+          41.69603,
+          44.806477
+        ],
+        [
+          41.695905,
+          44.806469
+        ],
+        [
+          41.695795,
+          44.806459
+        ],
+        [
+          41.695685,
+          44.806449
+        ]
+      ],
+      "sourceUrl": "https://www.openstreetmap.org/copyright",
+      "localReview": "pending"
+    },
+    {
+      "id": "peace-crossing",
+      "name": {
+        "en": "Bridge of Peace crossing",
+        "ka": "მშვიდობის ხიდის გადასასვლელი"
+      },
+      "highlightIds": [
+        "peace-bridge",
+        "rike-park"
+      ],
+      "coordinates": [
+        [
+          41.693007,
+          44.808953
+        ],
+        [
+          41.693002,
+          44.80874
+        ],
+        [
+          41.692996,
+          44.808526
+        ],
+        [
+          41.69299,
+          44.808359
+        ],
+        [
+          41.692983,
+          44.808193
+        ],
+        [
+          41.692977,
+          44.808026
+        ],
+        [
+          41.692971,
+          44.807873
+        ],
+        [
+          41.692965,
+          44.807721
+        ],
+        [
+          41.692959,
+          44.807568
+        ]
+      ],
+      "sourceUrl": "https://www.openstreetmap.org/copyright",
+      "localReview": "pending"
+    },
+    {
+      "id": "erekle-lane",
+      "name": {
+        "en": "Erekle’s pedestrian lane",
+        "ka": "ერეკლე მეორის საფეხმავლო ქუჩა"
+      },
+      "highlightIds": [
+        "ereklestreet",
+        "sioni"
+      ],
+      "coordinates": [
+        [
+          41.691973,
+          44.806763
+        ],
+        [
+          41.692035,
+          44.806762
+        ],
+        [
+          41.69217,
+          44.806761
+        ],
+        [
+          41.692304,
+          44.80676
+        ],
+        [
+          41.692449,
+          44.806766
+        ],
+        [
+          41.692593,
+          44.806772
+        ],
+        [
+          41.692738,
+          44.806778
+        ],
+        [
+          41.69288,
+          44.806786
+        ],
+        [
+          41.693022,
+          44.806793
+        ]
+      ],
+      "sourceUrl": "https://www.openstreetmap.org/copyright",
+      "localReview": "pending"
+    },
+    {
+      "id": "shardeni-lane",
+      "name": {
+        "en": "Balconies of Shardeni",
+        "ka": "შარდენის ქუჩის აივნები"
+      },
+      "highlightIds": [
+        "shardeni",
+        "meidan"
+      ],
+      "coordinates": [
+        [
+          41.690187,
+          44.809008
+        ],
+        [
+          41.690238,
+          44.80892
+        ],
+        [
+          41.690302,
+          44.808766
+        ],
+        [
+          41.690366,
+          44.808613
+        ],
+        [
+          41.690456,
+          44.808492
+        ],
+        [
+          41.690547,
+          44.808372
+        ],
+        [
+          41.690572,
+          44.808315
+        ],
+        [
+          41.690601,
+          44.808148
+        ],
+        [
+          41.69063,
+          44.807981
+        ],
+        [
+          41.690659,
+          44.807814
+        ],
+        [
+          41.690698,
+          44.807751
+        ]
+      ],
+      "sourceUrl": "https://www.openstreetmap.org/copyright",
+      "localReview": "pending"
+    },
+    {
+      "id": "abano-lane",
+      "name": {
+        "en": "The bathhouse lane",
+        "ka": "აბანოების ქუჩა"
+      },
+      "highlightIds": [
+        "bath-domes",
+        "orbeliani-bath"
+      ],
+      "coordinates": [
+        [
+          41.688331,
+          44.810639
+        ],
+        [
+          41.688263,
+          44.810637
+        ],
+        [
+          41.688173,
+          44.810652
+        ],
+        [
+          41.688162,
+          44.810654
+        ],
+        [
+          41.688004,
+          44.810679
+        ],
+        [
+          41.687887,
+          44.810698
+        ],
+        [
+          41.68777,
+          44.810716
+        ],
+        [
+          41.687725,
+          44.810723
+        ]
+      ],
+      "sourceUrl": "https://www.openstreetmap.org/copyright",
+      "localReview": "pending"
+    },
+    {
+      "id": "atoneli-promenade",
+      "name": {
+        "en": "Atoneli promenade",
+        "ka": "ათონელის სასეირნო ქუჩა"
+      },
+      "highlightIds": [
+        "orbeliani-square",
+        "leonidze-garden"
+      ],
+      "coordinates": [
+        [
+          41.698224,
+          44.803645
+        ],
+        [
+          41.698315,
+          44.803559
+        ],
+        [
+          41.698406,
+          44.803474
+        ],
+        [
+          41.698497,
+          44.803388
+        ],
+        [
+          41.698572,
+          44.803318
+        ],
+        [
+          41.698647,
+          44.803248
+        ],
+        [
+          41.698699,
+          44.803203
+        ],
+        [
+          41.698806,
+          44.8031
+        ],
+        [
+          41.698912,
+          44.802998
+        ],
+        [
+          41.698948,
+          44.802962
+        ]
+      ],
+      "sourceUrl": "https://www.openstreetmap.org/copyright",
+      "localReview": "pending"
+    },
+    {
+      "id": "metekhi-river",
+      "name": {
+        "en": "Metekhi river crossing",
+        "ka": "მეტეხის ხიდის ხედი"
+      },
+      "highlightIds": [
+        "metekhi-bridge",
+        "gorgasali-statue"
+      ],
+      "coordinates": [
+        [
+          41.690138,
+          44.809551
+        ],
+        [
+          41.690211,
+          44.809709
+        ],
+        [
+          41.690284,
+          44.809867
+        ],
+        [
+          41.690357,
+          44.810025
+        ],
+        [
+          41.69043,
+          44.810183
+        ],
+        [
+          41.690503,
+          44.810341
+        ],
+        [
+          41.690576,
+          44.810499
+        ]
+      ],
+      "sourceUrl": "https://www.openstreetmap.org/copyright",
+      "localReview": "pending"
+    },
+    {
+      "id": "gallery-frontage",
+      "name": {
+        "en": "Along the gallery façade",
+        "ka": "გალერეის ფასადის გასწვრივ"
+      },
+      "highlightIds": [
+        "national-gallery",
+        "kashveti"
+      ],
+      "coordinates": [
+        [
+          41.698629,
+          44.798336
+        ],
+        [
+          41.698528,
+          44.798409
+        ],
+        [
+          41.698384,
+          44.798502
+        ],
+        [
+          41.698241,
+          44.798594
+        ],
+        [
+          41.698098,
+          44.798687
+        ],
+        [
+          41.697954,
+          44.79878
+        ],
+        [
+          41.697816,
+          44.798865
+        ],
+        [
+          41.697736,
+          44.798921
+        ],
+        [
+          41.697656,
+          44.798977
+        ],
+        [
+          41.69754,
+          44.799079
+        ]
+      ],
+      "sourceUrl": "https://www.openstreetmap.org/copyright",
+      "localReview": "pending"
+    },
+    {
+      "id": "april-garden-path",
+      "name": {
+        "en": "The garden behind the gallery",
+        "ka": "გალერეის უკანა ბაღის ბილიკი"
+      },
+      "highlightIds": [
+        "nine-april-garden",
+        "national-gallery"
+      ],
+      "coordinates": [
+        [
+          41.698299,
+          44.799673
+        ],
+        [
+          41.698382,
+          44.799598
+        ],
+        [
+          41.698466,
+          44.799524
+        ],
+        [
+          41.698558,
+          44.799481
+        ]
+      ],
+      "sourceUrl": "https://www.openstreetmap.org/copyright",
+      "localReview": "pending"
+    },
+    {
+      "id": "leonidze-tree-walk",
+      "name": {
+        "en": "Leonidze Garden path",
+        "ka": "ლეონიძის ბაღის ბილიკი"
+      },
+      "highlightIds": [
+        "leonidze-garden",
+        "dry-bridge"
+      ],
+      "coordinates": [
+        [
+          41.699375,
+          44.801289
+        ],
+        [
+          41.699358,
+          44.801317
+        ],
+        [
+          41.699328,
+          44.801388
+        ],
+        [
+          41.699317,
+          44.801487
+        ],
+        [
+          41.699315,
+          44.801684
+        ],
+        [
+          41.699314,
+          44.801731
+        ],
+        [
+          41.699313,
+          44.801762
+        ],
+        [
+          41.6993,
+          44.801832
+        ],
+        [
+          41.699275,
+          44.801897
+        ],
+        [
+          41.699239,
+          44.801964
+        ],
+        [
+          41.699187,
+          44.802019
+        ]
+      ],
+      "sourceUrl": "https://www.openstreetmap.org/copyright",
+      "localReview": "pending"
+    }
+  ]
+}

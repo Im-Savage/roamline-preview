@@ -1,0 +1,12 @@
+Archival photographs from Wikimedia Commons, available offline as thumbnails. Each file page identifies Dmitri Yermakov as the creator and marks the photograph public domain.
+
+opera.jpg — Theatre, Tbilisi (Yermakov photo), 1900.
+https://commons.wikimedia.org/wiki/File:Theatre,_Tbilisi_(Yermakov_photo).JPG
+
+baths.jpg — Orbeliani Bath, Tbilisi (Yermakov photo), 1900.
+https://commons.wikimedia.org/wiki/File:Orbeliani_Bath,_Tbilisi_(Yermakov_photo).JPG
+
+metekhi.jpg — Maidan Square and Metekhi Church, 1896.
+https://commons.wikimedia.org/wiki/File:Ermakov._Maidan_Square_and_Metekhi_Church._1896.jpg
+
+The contemporary reference photographs use their existing field guide licenses in assets/photos/CREDITS.txt. The two photographers’ viewpoints can differ.

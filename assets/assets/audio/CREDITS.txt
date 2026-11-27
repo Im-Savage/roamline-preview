@@ -1,0 +1,8 @@
+Roamline walking guide audio
+
+These English recordings use a synthesized voice. The ten landmark scripts are original editorial descriptions based on the cited exterior sights in the bundled field guide. Three additional recordings give generic walking maneuvers. The automatic audio guide is optional.
+
+Voice model: en_US-ljspeech-medium, trained by Bryce Beattie from the public-domain LJ Speech Dataset.
+Model card: https://huggingface.co/rhasspy/piper-voices/blob/main/en/en_US/ljspeech/medium/MODEL_CARD
+Dataset: https://keithito.com/LJ-Speech-Dataset/
+Generated offline with Piper. The app bundles the resulting MP3 recordings. It does not bundle the synthesis engine or model.

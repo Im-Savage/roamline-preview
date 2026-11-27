@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "sources": {
+    "bukia": {
+      "checkedAt": "2026-11-27T13:34:28.001817Z",
+      "events": [
+        {
+          "id": "horizons-exhibition",
+          "category": "art",
+          "access": "exhibition",
+          "lat": 41.7042,
+          "lng": 44.78439,
+          "visitMinutes": 25,
+          "passBy": false,
+          "name": {
+            "en": "Salome Chigilashvili - Horizons, Walls, Horizons…",
+            "ka": "სალომე ჩიგილაშვილი · ჰორიზონტები, კედლები, ჰორიზონტები…"
+          },
+          "description": {
+            "en": "Bukia Vakhania · 27 Mikheil Zandukeli Street, second floor.",
+            "ka": "ბუკია ვახანია · ზანდუკელის ქ. 27, მეორე სართული."
+          },
+          "localReview": "pending",
+          "lastChecked": "2026-11-27",
+          "sourceUrl": "https://www.bukiavakhania.com/en/exhibition/exhibition/list/article/225",
+          "venueId": "bukia",
+          "schedule": {
+            "from": "2026-10-29",
+            "through": "2026-12-06",
+            "weekdays": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "openMinutes": 660,
+            "closeMinutes": 1140,
+            "dailyHours": {},
+            "exceptions": [
+              "2026-10-29"
+            ],
+            "sourceUrl": "https://www.bukiavakhania.com/en/contact",
+            "display": {
+              "en": "2026-10-29 – 2026-12-06 · Tue–Sun 11:00–19:00",
+              "ka": "2026-10-29 – 2026-12-06 · სამშ.–კვ. 11:00–19:00"
+            }
+          }
+        }
+      ]
+    },
+    "lc": {
+      "checkedAt": "2026-11-27T13:34:28.001817Z",
+      "events": [
+        {
+          "id": "show-lc-2026-11-21-anton-munar-words-have-left-me",
+          "category": "art",
+          "access": "exhibition",
+          "lat": 41.707384,
+          "lng": 44.802522,
+          "visitMinutes": 25,
+          "passBy": false,
+          "name": {
+            "en": "Anton Munar · words have left me",
+            "ka": "Anton Munar · words have left me"
+          },
+          "description": {
+            "en": "LC Queisser · 10 Mazniashvili Street, second floor.",
+            "ka": "LC Queisser · მაზნიაშვილის ქ. 10, მეორე სართული."
+          },
+          "localReview": "pending",
+          "lastChecked": "2026-11-27",
+          "sourceUrl": "https://www.lc-queisser.com/tbilisi",
+          "venueId": "lc",
+          "schedule": {
+            "from": "2026-11-21",
+            "through": "2027-01-30",
+            "weekdays": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "openMinutes": 780,
+            "closeMinutes": 1140,
+            "dailyHours": {},
+            "exceptions": [
+              "2026-11-21"
+            ],
+            "sourceUrl": "https://www.lc-queisser.com/contact",
+            "display": {
+              "en": "2026-11-21 – 2027-01-30 · Mon–Sat 13:00–19:00",
+              "ka": "2026-11-21 – 2027-01-30 · ორშ.–შაბ. 13:00–19:00"
+            }
+          }
+        }
+      ]
+    },
+    "window": {
+      "checkedAt": "2026-11-27T13:34:28.001817Z",
+      "events": [
+        {
+          "id": "show-window-2025-12-12-nina-akhobadze-added-appended-foreign",
+          "category": "art",
+          "access": "exhibition",
+          "lat": 41.70678,
+          "lng": 44.784356,
+          "visitMinutes": 25,
+          "passBy": false,
+          "name": {
+            "en": "Nina Akhobadze — added.appended.foreign.",
+            "ka": "Nina Akhobadze — added.appended.foreign."
+          },
+          "description": {
+            "en": "Window Project · 9 Erekle Tatishvili Street.",
+            "ka": "Window Project · ერეკლე ტატიშვილის ქ. 9."
+          },
+          "localReview": "pending",
+          "lastChecked": "2026-11-27",
+          "sourceUrl": "https://www.windowproject.co/",
+          "venueId": "window",
+          "schedule": {
+            "from": "2025-12-12",
+            "through": "2026-12-20",
+            "weekdays": [],
+            "openMinutes": 0,
+            "closeMinutes": 0,
+            "dailyHours": {},
+            "exceptions": [
+              "2025-12-12"
+            ],
+            "sourceUrl": "https://www.windowproject.co/about-us",
+            "display": {
+              "en": "2025-12-12 – 2026-12-20 · Visiting hours unconfirmed",
+              "ka": "2025-12-12 – 2026-12-20 · ვიზიტის საათები დაუდასტურებელია"
+            }
+          }
+        }
+      ]
+    },
+    "arthub": {
+      "checkedAt": "2026-11-27T13:34:28.001817Z",
+      "events": []
+    },
+    "tpmm": {
+      "checkedAt": "2026-11-27T13:34:28.001817Z",
+      "events": []
+    }
+  }
+}
